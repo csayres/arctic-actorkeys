@@ -1,0 +1,3 @@
+setupOptional(plc)
+setupOptional(sdss3tools)
+pathPrepend(PYTHONPATH, ${PRODUCT_DIR}/python)
