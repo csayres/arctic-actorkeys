@@ -37,6 +37,10 @@ KeysDictionary("arcticfilterwheel", (1,0), *(
         Int(help = "filter id", invalid="NaN"),
         help = "The integer ID for the current filter position of the filter wheel (1-6 allowed)"
     ),
+    Key("hall",
+        String(invalid="?", help = "hall effect"),
+        help = "Hall effect value."
+    ),
     Key("cmdFilterID",
         Int(invalid = "NaN"),
         help = "The integer ID for the commanded filter filter position of the filter wheel (1-6 allowed)"
